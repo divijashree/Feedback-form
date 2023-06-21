@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Feedback Form</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h2>Abhyaz</h2>
+  <h3>Student Feedback Form</h3>
+
+  <form id="feedbackForm" action="#" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+    <p>How satisfied are you with the Abhyaz internship?</p>
+    <input type="radio" id="verySatisfied" name="internshipSatisfaction" value="Very Satisfied" required>
+    <label for="verySatisfied">Very Satisfied</label>
+    
+    <input type="radio" id="satisfied" name="internshipSatisfaction" value="Satisfied">
+    <label for="satisfied">Satisfied</label>
+    
+    <input type="radio" id="neutral" name="internshipSatisfaction" value="Neutral">
+    <label for="neutral">Neutral</label>
+    
+    <input type="radio" id="dissatisfied" name="internshipSatisfaction" value="Dissatisfied">
+    <label for="dissatisfied">Dissatisfied</label>
+    
+    <input type="radio" id="veryDissatisfied" name="internshipSatisfaction" value="Very Dissatisfied">
+    <label for="veryDissatisfied">Very Dissatisfied</label><br><br>
+    
+    <p>Rate yourself the knowledge earned through this internship:</p>
+    <input type="radio" id="excellent" name="knowledgeRating" value="Excellent" required>
+    <label for="excellent">Excellent</label>
+    
+    <input type="radio" id="good" name="knowledgeRating" value="Good">
+    <label for="good">Good</label>
+    
+    <input type="radio" id="average" name="knowledgeRating" value="Average">
+    <label for="average">Average</label>
+    
+    <input type="radio" id="belowAverage" name="knowledgeRating" value="Below Average">
+    <label for="belowAverage">Below Average</label>
+    
+    <input type="radio" id="poor" name="knowledgeRating" value="Poor">
+    <label for="poor">Poor</label><br><br>
+
+    <!-- Add more form fields here -->
+
+    <input type="submit" value="Submit">
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
